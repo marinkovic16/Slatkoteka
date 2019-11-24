@@ -1,0 +1,330 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto:300,400,700');
+
+* {
+    font-family: 'Roboto' , sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+img {
+    max-width: 100%;
+}
+header {
+    padding-top: 15px;
+    padding-bottom: 15px;
+    display: block;
+    box-sizing: border-box;
+    background-color: pink;
+    position: sticky;
+    top: 0;
+}
+header ul {
+    list-style-type: none;
+    padding-left: 0;
+    margin-bottom: 0;
+    
+}
+
+header ul li {
+    display: inline-block;
+    margin-right: 15px;
+}
+
+img:hover{
+    transform: scale(1.1,1.1);
+    transition-duration: 2s;
+
+}
+
+.containerIndex{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    flex-wrap: wrap;
+    margin-left: 15mm;
+    margin-right: 5mm;
+}
+.indexItem-1{
+    flex:1;
+    order:1;
+    padding: 5px;
+}
+.indexItem-2{
+    flex:1;
+    order:2;
+    padding: 5px;
+}
+.indexItem-3{
+    flex:1;
+    order:3;
+    padding: 5px;
+}
+
+.containerPonuda{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    justify-content: space-around;
+    flex-wrap: wrap; 
+}
+.rowPonuda1{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    
+}
+.rowPonuda2{
+    display: flex;
+    flex-direction: row;
+    
+}
+.itemPonuda-1{
+    flex:1;
+}
+.itemPonuda-2{
+    flex:1;
+}
+.itemPonuda-3{
+    flex:1;
+}
+.itemPonuda-4{
+    flex:1;
+}
+.itemPonuda-5{
+    flex:1;
+}
+.itemPonuda-6{
+    flex:1;
+}
+.item{
+    grid-area: main;
+}
+
+.galerija{
+    padding: 10px;
+}
+.redPrviGalerija{
+    display: flex;
+    padding: 10px;
+}
+.redDrugiGalerija{
+    display: flex;
+    padding: 10px;
+}
+.itemGalerija-1{
+    flex: 1;
+}
+.itemGalerija-2{
+    flex: 1;
+}
+.itemGalerija-3{
+    flex: 1;
+}
+.itemGalerija-4{
+    flex: 1;
+}
+.itemGalerija-5{
+    flex: 1;
+}
+.itemGalerija-6{
+    flex: 1;
+}
+
+.rowONama{
+    display: flex;
+}
+.itemONama-1{
+    flex: 1;
+}
+.itemONama-2{
+    flex: 1;
+}
+.itemONama-3{
+    flex: 1;
+}
+
+header ul li a {
+    color: #000000;
+}
+
+header ul li a:hover {
+    color: #ff00ff;
+}
+
+.home .ponuda {
+    background: url("../img/background-pocetna.jpeg");
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.flexslider {
+    margin-bottom: 0 !important;
+    border: none !important;
+}
+
+.ponuda {
+    padding-top: 50px;
+    padding-bottom: 50px;
+    background: url("../img/background-pocetna.jpeg");
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.ponuda h1 {
+    margin: 0 auto;
+    margin-bottom: 60px;
+}
+
+.ponuda .item img {
+    max-width: 50%;
+    display: block;
+    margin: 0 auto;
+}
+
+.ponuda .item h3 {
+    margin-bottom: 20px;
+}
+
+.ponuda .item p {
+    min-height: 60px;
+}
+footer {
+    background: url("../img/footer.jpg");
+    padding-top: 10px;
+    padding-bottom: 10px;
+    box-sizing: border-box;
+}
+
+footer button {
+    display: inline-block;
+    color: pink;
+}
+
+footer #date  {
+    color: #ffffff;
+    display: inline-block;
+    margin-left: 30px;
+}
+body.ponuda {
+    padding: 0;
+}
+.forma{
+    flex: 1px;
+}
+.containerPosalji{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+body {
+    margin: 0;
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+    font-size: 1rem;
+    font-weight: 400;
+    line-height: 1.5;
+    color: #212529;
+    text-align: left;
+    background-color: #fff;
+  }
+.ponuda .slika img {
+    width: 100%;
+}
+.ponuda .item {
+    min-height: 420px;
+    background: #f0f3df;
+    padding: 20px;
+    margin-bottom: 24px;
+}
+.ponuda .item h3 {
+    font-size: 20px;
+}
+
+.ponuda .item p {
+    font-size: 14px;
+}
+.containerPonuda{
+    margin-left: 100px;
+    margin-right: 100px;
+}
+
+.ponuda .item img {
+    margin-bottom: 20px;
+}
+.ponuda .big-item {
+    background-color: #d3deeb;
+    min-height: 420px;
+    margin-bottom: 24px;
+}
+.ponuda .big-item img {
+    width: 55%;
+}
+
+.ponuda .big-item h3 {
+    font-size: 22px;
+}
+.ponuda .big-item p{
+    font-size: 15px;
+}
+.ponuda .info-wrapper {
+    width: 40%;
+    display: inline-block;
+}
+
+.ponuda input {
+    margin-bottom: 10px;
+}
+
+.ponuda textarea {
+    margin-bottom: 10px;
+}
+
+.o-nama .text-wrappper {
+    padding-top: 20px;
+    padding-bottom: 20px;
+font-family: cursive;
+}
+
+.o-nama p{
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+.galerija img {
+    margin-bottom: 24px;
+}
+
+.kontakt-tekst {
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+
+.kontakt-lista {
+    list-style-type: square;
+}
+
+@media(max-width:768px){
+    .container{
+        display:flex;
+        flex-direction: column;
+        flex-wrap: wrap;
+    }
+    .rowPonuda1{
+        display: flex;
+        flex-direction: column;
+    }
+    .rowPonuda2{
+        display: flex;
+        flex-direction: column;
+    }
+    .rowONama{
+        display: flex;
+        flex-direction: column;
+    }
+    .galerija{
+        display: flex;
+        flex-direction: column;
+    }
+}

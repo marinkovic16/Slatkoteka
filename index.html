@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <link rel="icon" type="image/x-icon" href="img/favico.png">
+    <title>Slatkoteka</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/flexslider.css">
+    <link rel="stylesheet" href="css/lightbox.css">
+
+    <meta name="viewport" content="width=device-width, maximum-scale=1.0, minimum-scale=1.0, initial-scale=1.0">
+
+    <script src="scripts/js/jquery-2.11.min.js"></script>
+    <script src="scripts/js/jquery.flexslider-min.js"></script>
+    <script src="scripts/js/lightbox.js"></script>
+    <script src="scripts/js/main.js"></script>
+
+</head>
+
+<body class="home">
+    <header>
+        <div class="container">
+            <div class="row">
+                <ul class="navigacija">
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="ponuda.html">Ponuda</a></li>
+                    <li><a href="o-nama.html">O nama</a></li>
+                    <li><a href="kontakt.html">Kontakt</a></li>
+                </ul>
+            </div>
+        </div>
+    </header>
+
+    <main>
+        <div class="flexslider">
+            <ul class="slides">
+                <li>
+                    <img src="./img/slider-image-1.jpg" />
+                </li>
+                <li>
+                    <img src="./img/slider-image-2.jpg" />
+                </li>
+                <li>
+                    <img src="./img/slider-image-3.jpg" />
+                </li>
+            </ul>
+        </div>
+        <div class="row" style="justify-content: center; background-color: pink;">
+            <h1>Izdvajamo iz naše ponude</h1>
+        </div>
+        <div class="ponuda">
+            <div class="containerIndex">
+                <div class="indexItem-1">
+                    <img src="./img/slika-1.png" alt="Krofne">
+                    <h3>Krofna Rocher</h3>
+                    <a class="btn btn-primary" href="ponuda.html">Pogledaj Ponudu</a>
+                </div>
+                <div class="indexItem-2">
+                    <img src="./img/slika-2.png" alt="Krofne">
+                    <h3>Plazma Jagoda Krofna</h3>
+                    <a class="btn btn-primary" href="ponuda.html">Pogledaj Ponudu</a>
+                </div>
+                <div class="indexItem-3">
+                    <img src="./img/slika-3.png" alt="Krofne">
+                    <h3>Milky Krofna</h3>
+                    <a class="btn btn-primary" href="ponuda.html">Pogledaj Ponudu</a>
+                </div>
+
+            </div>
+        </div>
+
+
+    </main>
+    <footer>
+        <div class="container">
+            <div class="row">
+                <button class="btn btn-info" onclick="document.getElementById('date').innerHTML=Date()">Pogledajte
+                    trenutno vreme</button>
+                <p id="date"></p>
+            </div>
+            <div class="row" style="justify-content: center; color: white;">
+                Copyright: Beograd 2019
+            </div>
+        </div>
+        <style type="text/css">
+        body{
+            overflow-x:hidden;
+        }
+        </style>
+    </footer>
+</body>
+
+</html>

@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+
+    <title>Slatkoteka</title>
+    <link rel="icon" type="image/x-icon" href="img/favico.png">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/flexslider.css">
+    <link rel="stylesheet" href="css/lightbox.css">
+
+    <meta name="viewport" content="width=device-width, maximum-scale=1.0, minimum-scale=1.0, initial-scale=1.0">
+
+    <script src="scripts/js/jquery-2.11.min.js"></script>
+    <script src="scripts/js/jquery.flexslider-min.js"></script>
+    <script src="scripts/js/lightbox.js"></script>
+    <script src="scripts/js/main.js"></script>
+
+</head>
+
+<body class="ponuda">
+    <header>
+        <div class="container">
+            <div class="row">
+                <ul class="navigacija">
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="ponuda.html">Ponuda</a></li>
+                    <li><a href="o-nama.html">O nama</a></li>
+                    <li><a href="kontakt.html">Kontakt</a></li>
+                </ul>
+            </div>
+        </div>
+    </header>
+
+    <main>
+
+        <div class="o-nama">
+            <div class="container">
+                <div class="text-wrappper">
+                    <h2 style="color: black; background-color: pink;">Ovo je naša priča!</h2>
+                    <p style="color: black; background-color: pink; ">Slatkoteka priča je ljubavna priča. U toj priči,
+                        princeza se zaljubila u krofne i tako je nastala Slatkoteka. Dok princeza čeka svog princa, ona
+                        vredno radi i otkriva nove ukuse, oblike i dekoracije koje čine Slatkoteka krofne jedinstvenim.
+                        Krofne koje nastaju iz ljubavi princeze imaju tu moć da spoje krajnosti u savršeno zadovoljstvo,
+                        gde tradicionalni recepti naših baka i najkvalitetniji sastojci i prelivi, uz moderno pakovanje
+                        i dekoraciju osvajaju na prvi pogled.
+                        Slatkoteka krofne osvajaju i naše bake, čije smo tradicionalne recepte pretvorili u poslasticu
+                        koja sve vraća u detinjstvo.
+                        I tako, sada ovde žive krofne, slatke i slane, svih ukusa i oblika: dostupne svima za
+                        degustaciju ili preterivanje, u svakom slučaju za uživanje.</p>
+                </div>
+            </div>
+            <div class="container galerija">
+                <div class="redPrviGalerija">
+                    <div class="itemGalerija-1">
+                        <a href="img/galerija-8.jpg" data-lightbox="mobilni">
+                            <img src="./img/galerija-8.jpg" alt="">
+                        </a>
+                    </div>
+                    <div class="itemGalerija-2">
+                        <a href="img/galerija-2.jpg" data-lightbox="mobilni">
+                            <img src="./img/galerija-2.jpg" alt="">
+                        </a>
+                    </div>
+                    <div class="itemGalerija-3">
+                        <a href="img/galerija-9.jpg" data-lightbox="mobilni">
+                            <img src="./img/galerija-9.jpg" alt="">
+                        </a>
+                    </div>
+                </div>
+                <div class="redDrugiGalerija">
+                    <div class="itemGalerija-4">
+                        <a href="img/galerija-4.jpg" data-lightbox="mobilni">
+                            <img src="./img/galerija-4.jpg" alt="">
+                        </a>
+                    </div>
+                    <div class="itemGalerija-5">
+                        <a href="img/galerija-5.jpg" data-lightbox="mobilni">
+                            <img src="./img/galerija-5.jpg" alt="">
+                        </a>
+                    </div>
+                    <div class="itemGalerija-6">
+                        <a href="img/galerija-6.jpg" data-lightbox="mobilni">
+                            <img src="./img/galerija-6.jpg" alt="">
+                        </a>
+                    </div>
+                </div>
+            </div>
+            <div class="container">
+                <div class="row">
+                    <div id="sirina"></div>
+                    <div id="srecni-broj"></div>
+                </div>
+            </div>
+        </div>
+
+        </div>
+
+
+    </main>
+    <footer>
+        <div class="container">
+            <div class="row">
+                <button class="btn btn-info" onclick="document.getElementById('date').innerHTML=Date()">Pogledajte
+                    trenutno vreme
+                </button>
+                <p id="date"></p>
+            </div>
+            <div class="row" style="justify-content: center; color: white;">
+                Copyright: Beograd 2019
+            </div>
+        </div>
+    </footer>
+</body>
+
+</html>
